@@ -4,7 +4,7 @@ pipeline {
         maven 'maven1'
     }
     stages {
-        stage('fetch') {
+        stage('fetching') {
             steps {
                 echo 'Fetching the Maven Project from github'
                 git branch: 'main',
